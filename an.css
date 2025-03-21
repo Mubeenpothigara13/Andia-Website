@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    justify-content: center; 
+    align-items: center; 
+    padding: 50px;
+    display: flex;
+  }
+
+
+  .box1{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+
+  .box2{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+
+  .box3{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+
+  .box4{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+
+  .box5{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+
+  .box6{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+
+  .box7{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+
+  .box8{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+
+
+
+  .box1:hover{
+    transform: translateX(300px);
+    transition: 2s;
+  }
+
+  .box2:hover{
+    transform: translateX(-300px);
+    transition: 2s;
+  }
+
+  .box3:hover{
+    transform: translateY(-300px);
+    transition: 2s;
+  }
+
+  .box4:hover{
+    transform: translateY(300px);
+    transition: 2s;
+  }
+
+  .box5:hover{
+    transform: translateX(-300px) translateY(300px);
+    transition: 2s;
+  }
+
+  .box6:hover{
+    transform: translateX(300px) translateY(-300px);
+    transition: 2s;
+  }
+
+  .box7:hover{
+    transform: translateX(300px) translateY(300px);
+    transition: 2s;
+  }
+
+  .box8:hover{
+    transform: translateX(-300px) translateY(-300px);
+    transition: 2s;
+  }
